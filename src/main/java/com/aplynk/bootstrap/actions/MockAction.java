@@ -17,8 +17,8 @@ public class MockAction extends BaseComponent {
 		config = getConfig();
         input = getInput(Invoice.class);
 
-		log("Logging CONFIG: " + config);
-		log("Logging INPUT: " + input);
+		log("Logging Vani: " + config);
+		log("Logging Ankit: " + input);
 		log("Logging ENVVAR: " + getEnv("TEST_CLIENT_ID"));
 		log("Logging SNAPSHOT: " + parameters.getSnapshot());
 		emitData(input.toJson());
